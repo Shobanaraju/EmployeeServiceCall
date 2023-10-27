@@ -1,0 +1,27 @@
+
+<h1>Employee Data from API</h1>
+<br>
+
+<table>
+    <thead>
+        <th>Employee ID</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Age</th>
+        
+    </thead>
+    <tr *ngFor="let detail of details">
+        <td>{{detail.id}}</td>
+        <td>{{detail.employee_name}}</td>
+        <td>{{detail.employee_salary}}</td>
+        <td>{{detail.employee_age}}</td>
+
+        <!-- student -->
+       <!-- <td>{{detail.employeeId}}</td>
+        <td>{{detail.name}}</td>
+        <td>{{detail.dob}}</td>
+        <td>{{detail.rollNo}}</td> -->
+
+        
+    </tr>
+</table>
